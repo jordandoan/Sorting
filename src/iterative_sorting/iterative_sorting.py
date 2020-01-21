@@ -33,7 +33,7 @@ def count_sort( arr, maximum=-1 ):
     for num in arr:
         if num < 0:
             return 'Error, negative numbers not allowed in Count Sort'
-            # raise ValueError('Error, negative numbers not allowed in Count Sort')
+            # lraise ValueError('Error, negative numbers not allowed in Count Sort')
         counts[num] += 1
 
     idx = 0
